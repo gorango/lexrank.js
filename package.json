@@ -1,0 +1,14 @@
+{
+  "name": "lexrank.js",
+  "version": "1.0.0",
+  "description": "Text summarization using the lexrank algorithm",
+  "main": "src/lexrank.js",
+  "repository": "https://github.com/gorango/lexrank",
+  "author": "Goran <gospaso@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "natural": "^0.5.0",
+    "sentence-tokenizer": "^0.0.7",
+    "wuzzy": "^0.1.3"
+  }
+}
