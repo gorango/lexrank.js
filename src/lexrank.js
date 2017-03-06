@@ -3,7 +3,7 @@ const natural = require('natural')
 
 const utils = require('./utils')
 
-function summarize(text, callback) {
+export default function (text, callback) {
   // Tokenize text to sentences
   // BUG: need a better sentence tokenizer
   const sentenceTokenizer = new Tokenizer('utterer')
@@ -34,10 +34,6 @@ function summarize(text, callback) {
       result + (result ? ' ' : '') + line.text, '')
 
   const result = { ranked, summary }
-
-  callback
-    ? callback(false, result)
-    : result
+  callback && callback(false, result)
+  return result
 }
-
-module.exports = summarize
