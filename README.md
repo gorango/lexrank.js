@@ -1,12 +1,12 @@
 # lexrank.js
 
-Implements [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization in node. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to entire text. 
+Implements [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization in node. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to entire text.
 
 # Usage
 
 ```
 var lexrank = require('lexrank');
-lexrank.summarize(text, callback)
+lexrank.analyze(text, (err, result) => {})
 ```
 
 ### Params
