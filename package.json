@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Text summarization using the lexrank algorithm",
   "main": "src/lexrank.js",
-  "repository": "https://github.com/gorango/lexrank",
-  "author": "Goran <gospaso@gmail.com>",
+  "repository": "https://github.com/gorango/lexrank.js",
+  "author": "https://github.com/gorango",
   "license": "MIT",
   "dependencies": {
     "natural": "^0.5.0",
