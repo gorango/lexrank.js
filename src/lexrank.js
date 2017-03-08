@@ -1,23 +1,15 @@
-const Tokenizer = require('sentence-tokenizer')
-const natural = require('natural')
-
 const utils = require('./utils')
 
 function analyze (text, callback) {
   // Tokenize text to sentences
-  // BUG: need a better sentence tokenizer
-  const sentenceTokenizer = new Tokenizer('utterer')
-  sentenceTokenizer.setEntry(text)
-  const sentencesRaw = sentenceTokenizer.getSentences()
+  const sentencesRaw = utils.sentencesArray(text)
   const sentencesOriginal = [...sentencesRaw]
 
   // Tokenize words in sentences
-  const wordTokenizer = new natural.TreebankWordTokenizer()
-  const sentencesScored = sentencesRaw.map(sentence =>
-    wordTokenizer.tokenize(sentence.toLowerCase()))
+  const sentencesAndWords = sentencesRaw.map(utils.wordsArray)
 
   // Construct matrix and rank sentences
-  const matrix = utils.constructMatrix(sentencesScored)
+  const matrix = utils.constructMatrix(sentencesAndWords)
   const sentencesRanked = utils.pageRank(matrix, sentencesOriginal)
 
   // Return top `lines` number of lines
@@ -25,7 +17,7 @@ function analyze (text, callback) {
 
   // Concatenate top lines for a "summary"
   // TODO: build a better summary algorithm
-  const lines = Math.round(ranked.length / 10)
+  const lines = Math.round(ranked.length * 15 / 100)
   const summary = [...ranked]
     .sort((a, b) => b.weight - a.weight)
     .filter((_, i) => i < Math.min(lines, sentencesRanked.length))
