@@ -31,14 +31,23 @@ Returns an object containing ranked results and a summary string.
 }
 ```
 
+# Tests
+
+Make sure you have `mocha` installed globally (`npm i -g mocha`).
+
+Run `npm test` to run tests in all `*.spec.js` files.
+
+### Coverage
+
+```
+npm i -g istanbul
+istanbul cover _mocha "./**/*.spec.js"
+open coverage/lcov-report/index.html
+```
+
 # Roadmap
 
 ### Improve sentence tokenization
-
-Currently using [node-sentence-tokenizer](https://github.com/parmentf/node-sentence-tokenizer) which has some flaws:
-
-- runs into issues around titles and abbreviations (Dr. Prof., U.S., etc.)
-- occasionally breaks quotes
 
 ### Normalize weights
 

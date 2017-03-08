@@ -7,5 +7,10 @@
   "author": "https://github.com/gorango",
   "license": "MIT",
   "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "scripts": {
+    "test": "mocha \"./**/*.spec.js\""
   }
 }
