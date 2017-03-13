@@ -11,6 +11,7 @@
     "chai": "^3.5.0"
   },
   "scripts": {
-    "test": "mocha \"./**/*.spec.js\""
+    "coverage": "istanbul cover _mocha ./**/*.spec.js",
+    "test": "mocha ./**/*.spec.js --watch"
   }
 }
