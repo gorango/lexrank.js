@@ -6,20 +6,20 @@ const expect = chai.expect
 const text = fs.readFileSync('./fixtures/test.txt', 'utf8')
 
 describe('utils.js', () => {
-  describe('flatten()', () => {
+  describe('flatten(array)', () => {
     it('should flatten an array of objects', () => {
       const array = [[1, 2, 3], [4, 5, 6]]
       expect(utils.flatten(array).length).to.equal(6)
     })
   })
-  describe('normalize()', () => {
+  describe('normalize(array)', () => {
     it('should normalize an array of numbers', () => {
       const array = [0.1, 0.2, 0.5]
       const expected = [0.2, 0.4, 1]
       expect(utils.normalize(array)).to.eql(expected)
     })
   })
-  describe('tanimoto()', () => {
+  describe('tanimoto(sentenceA, sentenceB)', () => {
     it('should return a small tanimoto distance for two dissimilar sentences', () => {
       const a = utils.wordsArray('This is one really awesome sentence')
       const b = utils.wordsArray('This is a much more different sentence')
@@ -32,7 +32,7 @@ describe('utils.js', () => {
       expect(utils.tanimoto(a, a)).to.equal(1)
     })
   })
-  describe('eigenvalues()', () => {
+  describe('eigenvalues(matrix, sentences)', () => {
     it('should scale and normalize matrix scores', () => {
       const sentences = utils.sentencesArray(utils.paragraphsArray(text)[0])
       const matrix = utils.wordsMatrix(sentences.map(utils.wordsArray))
@@ -42,26 +42,26 @@ describe('utils.js', () => {
       expect(eigen[0]).to.be.a('number')
     })
   })
-  describe('paragraphsArray()', () => {
+  describe('paragraphsArray(text)', () => {
     it('should return an array of paragraphs from text', () => {
       const result = utils.paragraphsArray(text)
       expect(result.length).to.equal(8)
     })
   })
-  describe('sentencesArray()', () => {
+  describe('sentencesArray(text)', () => {
     it('should return an array of sentences from text', () => {
       const result = utils.sentencesArray(text)
       expect(result.length).to.equal(24)
     })
   })
-  describe('wordsArray()', () => {
+  describe('wordsArray(text)', () => {
     it('should return an array of words from text', () => {
       const expected = utils.wordsArray('Automatic summarization is the process of reducing a text document with a computer program in order to create a summary that retains the most important points of the original document.')
       const result = utils.wordsArray(utils.sentencesArray(utils.paragraphsArray(text)[0])[0])
       expect(result).to.eql(expected)
     })
   })
-  describe('wordsMatrix()', () => {
+  describe('wordsMatrix(sentences, threshold?)', () => {
     it('should construct a two-dimentional matrix of tanimoto distance scores', () => {
       const text = `This is one sentence. 'This is quoted text' in a sentence.\n\n` +
         `This sentence is in a new paragraph! This sentence: is split right up.`
@@ -81,7 +81,7 @@ describe('utils.js', () => {
       expect(matrix[0]).to.eql(expected)
     })
   })
-  describe('pageRank()', () => {
+  describe('pageRank(sentences)', () => {
     it('should return objects with scores for each sentence', () => {
       const sentences = utils.sentencesArray(text)
       const ranked = utils.pageRank(sentences)
