@@ -1,6 +1,6 @@
 {
   "name": "lexrank.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Text summarization using the lexrank algorithm",
   "main": "src/lexrank.js",
   "repository": "https://github.com/gorango/lexrank.js",
