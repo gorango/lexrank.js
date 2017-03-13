@@ -85,11 +85,11 @@ const rankSentences = (matrix, sentences) => {
 
 // Rank the relevance of each sentences to the entire text
 const pageRank = sentences => {
-  // Flatten all paragraphs into an array of sentences, each with an array of words
+  // Create an array of sentences, each with an array of words
   const words = sentences.map(wordsArray)
   // Construct a matrix of relevance scores with the arrays of words.
   const matrix = wordsMatrix(words)
-  // Generate scores for each sentence in text (ignoring paragraphs)
+  // Generate scores for each sentence in text
   return rankSentences(matrix, sentences)
 }
 
