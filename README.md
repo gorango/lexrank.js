@@ -45,28 +45,6 @@ istanbul cover _mocha "./**/*.spec.js"
 open coverage/lcov-report/index.html
 ```
 
-# Roadmap
-
-### Improve sentence tokenization
-
-### Normalize weights
-
-Top sentences should have similar scores. A normal distribution would allow better comparison between articles for density and distribution of relevant information. It would also help with visualizing results if you want to designate a range of colors for different scores.
-
-### Improve summaries
-
-The summary is currently just the top 10% of ranked lines concatenated in a string. Using some of the [retext plugins](https://github.com/wooorm/retext/blob/master/doc/plugins.md) could improve the result.
-
-- [cliches](https://github.com/dunckr/retext-cliches)
-- [equality](https://github.com/wooorm/retext-equality)
-- [overuse](https://github.com/dunckr/retext-overuse) or [thesaurus](https://github.com/daizoru/node-thesaurus)
-- [sentiment](https://github.com/wooorm/retext-sentiment)
-- [simplify](https://github.com/wooorm/retext-simplify)
-
-### Add keywords
-
-[retext-keywords](https://github.com/wooorm/retext-keywords)
-
 # License
 
 [MIT](https://github.com/gorango/lexrank.js/blob/master/LICENSE) © [Goran Spasojevic](https://gorango.me)
