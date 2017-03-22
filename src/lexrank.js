@@ -24,12 +24,12 @@ const utils = require('./utils')
  *       text: <String>,
  *       index: <Number>
  *     },
- *     {...}
+ *     { ... }
  *   ],
- *   [...]
+ *   [ ... ]
  * ]
  */
-function analyze (text, callback) {
+export function lexrank (text, callback) {
   // Split text into an array of paragraphs, each with an array of sentences
   const paragraphs = utils.paragraphsArray(text).map(utils.sentencesArray)
 
@@ -62,8 +62,4 @@ function analyze (text, callback) {
 
   callback && callback(false, result)
   return result
-}
-
-module.exports = {
-  analyze
 }

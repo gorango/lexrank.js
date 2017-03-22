@@ -1,0 +1,19 @@
+{
+  "check-coverage": true,
+  "reporter": [
+    "lcov",
+    "text"
+  ],
+  "include": [
+    "src/*.js"
+  ],
+  "exclude": [
+    "dist"
+  ],
+  "require": [
+    "babel-register",
+    "babel-polyfill"
+  ],
+  "sourceMap": false,
+  "instrument": false
+}

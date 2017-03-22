@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015"],
+  "plugins": ["istanbul"],
+  "env": {
+    "production": {
+      "ignore": "./**/*.spec.js"
+    }
+  }
+}
