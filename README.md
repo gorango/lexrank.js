@@ -4,9 +4,17 @@ Implements [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html
 
 # Usage
 
+Install from npm
+
 ```
-var lexrank = require('lexrank');
-lexrank.analyze(text, (err, result) => {})
+npm i --save lexrank.js
+```
+
+In your script:
+
+```javascript
+import { lexrank } from 'lexrank.js'
+lexrank(text, (err, result) => {})
 ```
 
 ### Params
@@ -33,18 +41,6 @@ Returns an object containing ranked results and a summary string.
 
 # Tests
 
-Make sure you have `mocha` installed globally (`npm i -g mocha`).
+Run `npm test` to watch and test all `*.spec.js` files.
 
-Run `npm test` to run tests in all `*.spec.js` files.
-
-### Coverage
-
-```
-npm i -g istanbul
-istanbul cover _mocha "./**/*.spec.js"
-open coverage/lcov-report/index.html
-```
-
-# License
-
-[MIT](https://github.com/gorango/lexrank.js/blob/master/LICENSE) © [Goran Spasojevic](https://gorango.me)
+Run `npm coverage` to produce a test coverage report.
