@@ -11,7 +11,6 @@ import {
   sentencesArray,
   wordsArray,
   wordsMatrix,
-  rankSentences,
   pageRank
 } from './utils'
 
@@ -57,7 +56,7 @@ describe('utils.js', () => {
   describe('paragraphsArray(text)', () => {
     it('should return an array of paragraphs from text', () => {
       const result = paragraphsArray(text)
-      expect(result.length).to.equal(12)
+      expect(result.length).to.equal(8)
     })
   })
   describe('sentencesArray(text)', () => {

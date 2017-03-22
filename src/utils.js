@@ -8,7 +8,7 @@ export const normalize = array => {
   /**
    * alternative implementation
    * Produces more accurate scores but normalizes further from 1 so that the top scores in
-   * a text might never be high enough to stand out in results.
+   * a text rarely rank high enough to stand out in results.
    * NOTE: consider implementing the following code and generating a standard distribution
    * from the resulting array to achieve more emphasis on the relevant bits
    */
