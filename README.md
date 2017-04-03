@@ -13,7 +13,7 @@ npm i --save lexrank.js
 In your script:
 
 ```javascript
-import { lexrank } from 'lexrank.js'
+import lexrank from 'lexrank.js'
 lexrank(text, (err, result) => {})
 ```
 
