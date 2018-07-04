@@ -46,7 +46,6 @@ export const eigenvalues = (matrix, sentences) => {
 // split text into an array of paragraphs
 export const paragraphsArray = text => text
   .split('\n')
-  // filters out null and undefined
   .filter(p => p)
 
 // split text into an array of sentences
