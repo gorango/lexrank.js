@@ -1,22 +1,20 @@
 // flatten an array of values
-export const flatten = array => array.reduce((a, b) => [...a, ...b], [])
+export const flatten = arr => arr.reduce((a, b) => [...a, ...b], [])
 
 // normalize an array of Numbers
-export const normalize = array => {
+export const normalize = arr => {
   /**
    * alternative implementation
    * Produces less accurate scores but normalizes with fewer calculations
    * const ratio = Math.max(...array) / 100
    * return array.map(line => line / ratio / 100)
    */
-  const distance = Math.sqrt(array.reduce((dist, line) => (dist + line * line), 0))
-  const result = array.map(line => (line / distance))
-  const min = Math.min(...result)
-  const max = Math.max(...result)
-  const a = 0
-  const b = 1
-  const r = result.map(l => a + (l - min) * (b - a) / (max - min))
-  return r
+  const distance = Math.sqrt(arr.reduce((dis, ln) => (dis + ln * ln), 0))
+  const result = arr.map(ln => (ln / distance))
+  const [aMin, aMax] = [Math.min(...result), Math.max(...result)]
+  const [bMin, bMax] = [0, 1]
+  // normalize `array` between 0 and 1
+  return result.map(ln => bMin + (ln - aMin) * (bMax - bMin) / (aMax - aMin))
 }
 
 // return a tanimoto distance for two arrays of String/Number tokens
