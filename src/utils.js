@@ -3,17 +3,20 @@ export const flatten = array => array.reduce((a, b) => [...a, ...b], [])
 
 // normalize an array of Numbers
 export const normalize = array => {
-  const ratio = Math.max(...array) / 100
-  return array.map(line => line / ratio / 100)
   /**
    * alternative implementation
-   * Produces more accurate scores but normalizes further from 1 so that the top scores in
-   * a text rarely rank high enough to stand out in results.
-   * NOTE: consider implementing the following code and generating a standard distribution
-   * from the resulting array to achieve more emphasis on the relevant bits
+   * Produces less accurate scores but normalizes with fewer calculations
+   * const ratio = Math.max(...array) / 100
+   * return array.map(line => line / ratio / 100)
    */
-  // const distance = Math.sqrt(array.reduce((dist, line) => (dist + line * line), 0))
-  // return array.map(line => (line / distance))
+  const distance = Math.sqrt(array.reduce((dist, line) => (dist + line * line), 0))
+  const result = array.map(line => (line / distance))
+  const min = Math.min(...result)
+  const max = Math.max(...result)
+  const a = 0
+  const b = 1
+  const r = result.map(l => a + (l - min) * (b - a) / (max - min))
+  return r
 }
 
 // return a tanimoto distance for two arrays of String/Number tokens
