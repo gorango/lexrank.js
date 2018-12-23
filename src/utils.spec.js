@@ -101,6 +101,8 @@ describe('utils.js', () => {
         text: 'Automatic summarization is the process of reducing a text document with a computer program in order to create a summary that retains the most important points of the original document.',
         index: 0
       }
+      expect(ranked.length).to.equal(24)
+      expect(ranked[0]).to.deep.equal(expected)
     })
   })
 })

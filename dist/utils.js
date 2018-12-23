@@ -1,16 +1,13 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var cov_23endip6jp = function () {
-  var path = 'C:\\Users\\GORAN\\Dev\\lexrank.js\\src\\utils.js',
-      hash = 'ecd5088a3d01efc3268fdac27b519af25cecae6a',
+var cov_20ucbeyymb = function () {
+  var path = '/home/goran/sandbox/projects/gorango/lexrank.js/src/utils.js',
+      hash = '95bc0715b1a031a34b0bfc841d91702cfb76aa7b',
+      Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
-    path: 'C:\\Users\\GORAN\\Dev\\lexrank.js\\src\\utils.js',
+    path: '/home/goran/sandbox/projects/gorango/lexrank.js/src/utils.js',
     statementMap: {
       '0': {
         start: {
@@ -48,417 +45,497 @@ var cov_23endip6jp = function () {
           column: 25
         },
         end: {
-          line: 17,
+          line: 20,
           column: 1
         }
       },
       '4': {
         start: {
-          line: 6,
-          column: 16
+          line: 12,
+          column: 19
         },
         end: {
-          line: 6,
-          column: 40
+          line: 12,
+          column: 83
         }
       },
       '5': {
         start: {
-          line: 7,
-          column: 2
+          line: 12,
+          column: 59
         },
         end: {
-          line: 7,
-          column: 46
+          line: 12,
+          column: 77
         }
       },
       '6': {
         start: {
-          line: 7,
-          column: 27
+          line: 13,
+          column: 17
         },
         end: {
-          line: 7,
-          column: 45
+          line: 13,
+          column: 53
         }
       },
       '7': {
         start: {
-          line: 20,
-          column: 24
+          line: 13,
+          column: 36
         },
         end: {
-          line: 26,
-          column: 1
+          line: 13,
+          column: 51
         }
       },
       '8': {
         start: {
-          line: 21,
-          column: 10
+          line: 14,
+          column: 14
         },
         end: {
-          line: 21,
-          column: 20
+          line: 14,
+          column: 33
         }
       },
       '9': {
         start: {
-          line: 22,
-          column: 10
+          line: 15,
+          column: 14
         },
         end: {
-          line: 22,
-          column: 20
+          line: 15,
+          column: 33
         }
       },
       '10': {
         start: {
-          line: 23,
-          column: 21
+          line: 16,
+          column: 12
         },
         end: {
-          line: 23,
-          column: 58
+          line: 16,
+          column: 13
         }
       },
       '11': {
         start: {
-          line: 23,
-          column: 48
+          line: 17,
+          column: 12
         },
         end: {
-          line: 23,
-          column: 56
+          line: 17,
+          column: 13
         }
       },
       '12': {
         start: {
-          line: 24,
-          column: 15
+          line: 18,
+          column: 12
         },
         end: {
-          line: 24,
-          column: 46
+          line: 18,
+          column: 66
         }
       },
       '13': {
         start: {
-          line: 25,
-          column: 2
+          line: 18,
+          column: 28
         },
         end: {
-          line: 25,
-          column: 46
+          line: 18,
+          column: 65
         }
       },
       '14': {
         start: {
-          line: 30,
-          column: 27
+          line: 19,
+          column: 2
         },
         end: {
-          line: 44,
-          column: 1
+          line: 19,
+          column: 10
         }
       },
       '15': {
         start: {
-          line: 31,
-          column: 14
+          line: 23,
+          column: 24
         },
         end: {
-          line: 31,
-          column: 45
+          line: 29,
+          column: 1
         }
       },
       '16': {
         start: {
-          line: 33,
-          column: 2
+          line: 24,
+          column: 10
         },
         end: {
-          line: 41,
-          column: 4
+          line: 24,
+          column: 20
         }
       },
       '17': {
         start: {
-          line: 34,
-          column: 14
+          line: 25,
+          column: 10
         },
         end: {
-          line: 34,
-          column: 45
+          line: 25,
+          column: 20
         }
       },
       '18': {
         start: {
-          line: 35,
-          column: 4
+          line: 26,
+          column: 21
         },
         end: {
-          line: 39,
-          column: 6
+          line: 26,
+          column: 58
         }
       },
       '19': {
         start: {
-          line: 36,
-          column: 6
+          line: 26,
+          column: 48
         },
         end: {
-          line: 38,
-          column: 8
+          line: 26,
+          column: 56
         }
       },
       '20': {
         start: {
+          line: 27,
+          column: 15
+        },
+        end: {
+          line: 27,
+          column: 46
+        }
+      },
+      '21': {
+        start: {
+          line: 28,
+          column: 2
+        },
+        end: {
+          line: 28,
+          column: 46
+        }
+      },
+      '22': {
+        start: {
+          line: 33,
+          column: 27
+        },
+        end: {
+          line: 47,
+          column: 1
+        }
+      },
+      '23': {
+        start: {
+          line: 34,
+          column: 14
+        },
+        end: {
+          line: 34,
+          column: 45
+        }
+      },
+      '24': {
+        start: {
+          line: 36,
+          column: 2
+        },
+        end: {
+          line: 44,
+          column: 4
+        }
+      },
+      '25': {
+        start: {
           line: 37,
-          column: 8
+          column: 14
         },
         end: {
           line: 37,
           column: 45
         }
       },
-      '21': {
+      '26': {
         start: {
-          line: 40,
+          line: 38,
           column: 4
         },
         end: {
-          line: 40,
-          column: 24
-        }
-      },
-      '22': {
-        start: {
-          line: 43,
-          column: 2
-        },
-        end: {
-          line: 43,
-          column: 14
-        }
-      },
-      '23': {
-        start: {
-          line: 47,
-          column: 31
-        },
-        end: {
-          line: 50,
-          column: 17
-        }
-      },
-      '24': {
-        start: {
-          line: 47,
-          column: 39
-        },
-        end: {
-          line: 50,
-          column: 17
-        }
-      },
-      '25': {
-        start: {
-          line: 50,
-          column: 15
-        },
-        end: {
-          line: 50,
-          column: 16
-        }
-      },
-      '26': {
-        start: {
-          line: 53,
-          column: 30
-        },
-        end: {
-          line: 57,
-          column: 17
+          line: 42,
+          column: 6
         }
       },
       '27': {
         start: {
-          line: 53,
-          column: 38
+          line: 39,
+          column: 6
         },
         end: {
-          line: 57,
-          column: 17
+          line: 41,
+          column: 8
         }
       },
       '28': {
         start: {
-          line: 56,
-          column: 12
+          line: 40,
+          column: 8
         },
         end: {
-          line: 56,
-          column: 20
+          line: 40,
+          column: 45
         }
       },
       '29': {
         start: {
-          line: 57,
-          column: 15
+          line: 43,
+          column: 4
         },
         end: {
-          line: 57,
-          column: 16
+          line: 43,
+          column: 24
         }
       },
       '30': {
         start: {
-          line: 60,
-          column: 26
+          line: 46,
+          column: 2
         },
         end: {
-          line: 60,
-          column: 100
+          line: 46,
+          column: 14
         }
       },
       '31': {
         start: {
-          line: 60,
-          column: 34
+          line: 50,
+          column: 31
         },
         end: {
-          line: 60,
-          column: 100
+          line: 52,
+          column: 17
         }
       },
       '32': {
         start: {
-          line: 64,
-          column: 27
+          line: 50,
+          column: 39
         },
         end: {
-          line: 73,
-          column: 1
+          line: 52,
+          column: 17
         }
       },
       '33': {
         start: {
-          line: 65,
-          column: 2
+          line: 52,
+          column: 15
         },
         end: {
-          line: 72,
-          column: 4
+          line: 52,
+          column: 16
         }
       },
       '34': {
         start: {
-          line: 66,
-          column: 4
+          line: 55,
+          column: 30
         },
         end: {
-          line: 71,
-          column: 5
+          line: 59,
+          column: 17
         }
       },
       '35': {
         start: {
-          line: 68,
-          column: 22
+          line: 55,
+          column: 38
         },
         end: {
-          line: 68,
-          column: 52
+          line: 59,
+          column: 17
         }
       },
       '36': {
         start: {
-          line: 69,
-          column: 8
+          line: 58,
+          column: 12
         },
         end: {
-          line: 69,
-          column: 59
+          line: 58,
+          column: 20
         }
       },
       '37': {
         start: {
-          line: 76,
-          column: 29
+          line: 59,
+          column: 15
         },
         end: {
-          line: 84,
-          column: 1
+          line: 59,
+          column: 16
         }
       },
       '38': {
         start: {
-          line: 78,
-          column: 16
+          line: 62,
+          column: 26
         },
         end: {
-          line: 78,
-          column: 46
+          line: 62,
+          column: 100
         }
       },
       '39': {
         start: {
-          line: 79,
-          column: 2
+          line: 62,
+          column: 34
         },
         end: {
-          line: 83,
-          column: 5
+          line: 62,
+          column: 100
         }
       },
       '40': {
         start: {
-          line: 79,
-          column: 41
+          line: 66,
+          column: 27
         },
         end: {
-          line: 83,
-          column: 3
+          line: 75,
+          column: 1
         }
       },
       '41': {
         start: {
-          line: 87,
-          column: 24
+          line: 67,
+          column: 2
         },
         end: {
-          line: 94,
-          column: 1
+          line: 74,
+          column: 4
         }
       },
       '42': {
         start: {
-          line: 89,
-          column: 16
+          line: 68,
+          column: 4
         },
         end: {
-          line: 89,
-          column: 41
+          line: 73,
+          column: 5
         }
       },
       '43': {
         start: {
-          line: 91,
-          column: 17
+          line: 70,
+          column: 22
         },
         end: {
-          line: 91,
-          column: 35
+          line: 70,
+          column: 52
         }
       },
       '44': {
         start: {
-          line: 93,
+          line: 71,
+          column: 8
+        },
+        end: {
+          line: 71,
+          column: 59
+        }
+      },
+      '45': {
+        start: {
+          line: 78,
+          column: 29
+        },
+        end: {
+          line: 86,
+          column: 1
+        }
+      },
+      '46': {
+        start: {
+          line: 80,
+          column: 16
+        },
+        end: {
+          line: 80,
+          column: 46
+        }
+      },
+      '47': {
+        start: {
+          line: 81,
           column: 2
         },
         end: {
+          line: 85,
+          column: 5
+        }
+      },
+      '48': {
+        start: {
+          line: 81,
+          column: 41
+        },
+        end: {
+          line: 85,
+          column: 3
+        }
+      },
+      '49': {
+        start: {
+          line: 89,
+          column: 24
+        },
+        end: {
+          line: 96,
+          column: 1
+        }
+      },
+      '50': {
+        start: {
+          line: 91,
+          column: 16
+        },
+        end: {
+          line: 91,
+          column: 41
+        }
+      },
+      '51': {
+        start: {
           line: 93,
+          column: 17
+        },
+        end: {
+          line: 93,
+          column: 35
+        }
+      },
+      '52': {
+        start: {
+          line: 95,
+          column: 2
+        },
+        end: {
+          line: 95,
           column: 41
         }
       }
@@ -530,7 +607,7 @@ var cov_23endip6jp = function () {
             column: 34
           },
           end: {
-            line: 17,
+            line: 20,
             column: 1
           }
         },
@@ -540,102 +617,126 @@ var cov_23endip6jp = function () {
         name: '(anonymous_3)',
         decl: {
           start: {
-            line: 7,
-            column: 19
+            line: 12,
+            column: 42
           },
           end: {
-            line: 7,
-            column: 20
+            line: 12,
+            column: 43
           }
         },
         loc: {
           start: {
-            line: 7,
-            column: 27
+            line: 12,
+            column: 59
           },
           end: {
-            line: 7,
-            column: 45
+            line: 12,
+            column: 77
           }
         },
-        line: 7
+        line: 12
       },
       '4': {
         name: '(anonymous_4)',
         decl: {
           start: {
-            line: 20,
-            column: 24
+            line: 13,
+            column: 27
           },
           end: {
-            line: 20,
-            column: 25
+            line: 13,
+            column: 28
           }
         },
         loc: {
           start: {
-            line: 20,
-            column: 34
+            line: 13,
+            column: 36
           },
           end: {
-            line: 26,
-            column: 1
+            line: 13,
+            column: 51
           }
         },
-        line: 20
+        line: 13
       },
       '5': {
         name: '(anonymous_5)',
         decl: {
           start: {
-            line: 23,
-            column: 43
+            line: 18,
+            column: 23
           },
           end: {
-            line: 23,
-            column: 44
+            line: 18,
+            column: 24
           }
         },
         loc: {
           start: {
-            line: 23,
-            column: 48
+            line: 18,
+            column: 28
           },
           end: {
-            line: 23,
-            column: 56
+            line: 18,
+            column: 65
           }
         },
-        line: 23
+        line: 18
       },
       '6': {
         name: '(anonymous_6)',
         decl: {
           start: {
-            line: 30,
-            column: 27
+            line: 23,
+            column: 24
           },
           end: {
-            line: 30,
-            column: 28
+            line: 23,
+            column: 25
           }
         },
         loc: {
           start: {
-            line: 30,
-            column: 50
+            line: 23,
+            column: 34
           },
           end: {
-            line: 44,
+            line: 29,
             column: 1
           }
         },
-        line: 30
+        line: 23
       },
       '7': {
         name: '(anonymous_7)',
         decl: {
           start: {
+            line: 26,
+            column: 43
+          },
+          end: {
+            line: 26,
+            column: 44
+          }
+        },
+        loc: {
+          start: {
+            line: 26,
+            column: 48
+          },
+          end: {
+            line: 26,
+            column: 56
+          }
+        },
+        line: 26
+      },
+      '8': {
+        name: '(anonymous_8)',
+        decl: {
+          start: {
             line: 33,
             column: 27
           },
@@ -647,59 +748,35 @@ var cov_23endip6jp = function () {
         loc: {
           start: {
             line: 33,
-            column: 33
+            column: 50
           },
           end: {
-            line: 41,
-            column: 3
+            line: 47,
+            column: 1
           }
         },
         line: 33
-      },
-      '8': {
-        name: '(anonymous_8)',
-        decl: {
-          start: {
-            line: 35,
-            column: 22
-          },
-          end: {
-            line: 35,
-            column: 23
-          }
-        },
-        loc: {
-          start: {
-            line: 35,
-            column: 32
-          },
-          end: {
-            line: 39,
-            column: 5
-          }
-        },
-        line: 35
       },
       '9': {
         name: '(anonymous_9)',
         decl: {
           start: {
             line: 36,
-            column: 24
+            column: 27
           },
           end: {
             line: 36,
-            column: 25
+            column: 28
           }
         },
         loc: {
           start: {
             line: 36,
-            column: 34
+            column: 33
           },
           end: {
-            line: 38,
-            column: 7
+            line: 44,
+            column: 3
           }
         },
         line: 36
@@ -708,357 +785,405 @@ var cov_23endip6jp = function () {
         name: '(anonymous_10)',
         decl: {
           start: {
-            line: 47,
-            column: 31
+            line: 38,
+            column: 22
           },
           end: {
-            line: 47,
-            column: 32
+            line: 38,
+            column: 23
           }
         },
         loc: {
           start: {
-            line: 47,
-            column: 39
+            line: 38,
+            column: 32
           },
           end: {
-            line: 50,
-            column: 17
+            line: 42,
+            column: 5
           }
         },
-        line: 47
+        line: 38
       },
       '11': {
         name: '(anonymous_11)',
         decl: {
           start: {
-            line: 50,
-            column: 10
-          },
-          end: {
-            line: 50,
-            column: 11
-          }
-        },
-        loc: {
-          start: {
-            line: 50,
-            column: 15
-          },
-          end: {
-            line: 50,
-            column: 16
-          }
-        },
-        line: 50
-      },
-      '12': {
-        name: '(anonymous_12)',
-        decl: {
-          start: {
-            line: 53,
-            column: 30
-          },
-          end: {
-            line: 53,
-            column: 31
-          }
-        },
-        loc: {
-          start: {
-            line: 53,
-            column: 38
-          },
-          end: {
-            line: 57,
-            column: 17
-          }
-        },
-        line: 53
-      },
-      '13': {
-        name: '(anonymous_13)',
-        decl: {
-          start: {
-            line: 56,
-            column: 7
-          },
-          end: {
-            line: 56,
-            column: 8
-          }
-        },
-        loc: {
-          start: {
-            line: 56,
-            column: 12
-          },
-          end: {
-            line: 56,
-            column: 20
-          }
-        },
-        line: 56
-      },
-      '14': {
-        name: '(anonymous_14)',
-        decl: {
-          start: {
-            line: 57,
-            column: 10
-          },
-          end: {
-            line: 57,
-            column: 11
-          }
-        },
-        loc: {
-          start: {
-            line: 57,
-            column: 15
-          },
-          end: {
-            line: 57,
-            column: 16
-          }
-        },
-        line: 57
-      },
-      '15': {
-        name: '(anonymous_15)',
-        decl: {
-          start: {
-            line: 60,
-            column: 26
-          },
-          end: {
-            line: 60,
-            column: 27
-          }
-        },
-        loc: {
-          start: {
-            line: 60,
-            column: 34
-          },
-          end: {
-            line: 60,
-            column: 100
-          }
-        },
-        line: 60
-      },
-      '16': {
-        name: '(anonymous_16)',
-        decl: {
-          start: {
-            line: 64,
-            column: 27
-          },
-          end: {
-            line: 64,
-            column: 28
-          }
-        },
-        loc: {
-          start: {
-            line: 64,
-            column: 53
-          },
-          end: {
-            line: 73,
-            column: 1
-          }
-        },
-        line: 64
-      },
-      '17': {
-        name: '(anonymous_17)',
-        decl: {
-          start: {
-            line: 65,
-            column: 23
-          },
-          end: {
-            line: 65,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 65,
-            column: 36
-          },
-          end: {
-            line: 72,
-            column: 3
-          }
-        },
-        line: 65
-      },
-      '18': {
-        name: '(anonymous_18)',
-        decl: {
-          start: {
-            line: 67,
-            column: 20
-          },
-          end: {
-            line: 67,
-            column: 21
-          }
-        },
-        loc: {
-          start: {
-            line: 67,
-            column: 33
-          },
-          end: {
-            line: 70,
-            column: 7
-          }
-        },
-        line: 67
-      },
-      '19': {
-        name: '(anonymous_19)',
-        decl: {
-          start: {
-            line: 76,
-            column: 29
-          },
-          end: {
-            line: 76,
-            column: 30
-          }
-        },
-        loc: {
-          start: {
-            line: 76,
-            column: 52
-          },
-          end: {
-            line: 84,
-            column: 1
-          }
-        },
-        line: 76
-      },
-      '20': {
-        name: '(anonymous_20)',
-        decl: {
-          start: {
-            line: 79,
-            column: 23
-          },
-          end: {
-            line: 79,
-            column: 24
-          }
-        },
-        loc: {
-          start: {
-            line: 79,
-            column: 41
-          },
-          end: {
-            line: 83,
-            column: 3
-          }
-        },
-        line: 79
-      },
-      '21': {
-        name: '(anonymous_21)',
-        decl: {
-          start: {
-            line: 87,
+            line: 39,
             column: 24
           },
           end: {
-            line: 87,
+            line: 39,
             column: 25
           }
         },
         loc: {
           start: {
-            line: 87,
-            column: 37
+            line: 39,
+            column: 34
           },
           end: {
-            line: 94,
+            line: 41,
+            column: 7
+          }
+        },
+        line: 39
+      },
+      '12': {
+        name: '(anonymous_12)',
+        decl: {
+          start: {
+            line: 50,
+            column: 31
+          },
+          end: {
+            line: 50,
+            column: 32
+          }
+        },
+        loc: {
+          start: {
+            line: 50,
+            column: 39
+          },
+          end: {
+            line: 52,
+            column: 17
+          }
+        },
+        line: 50
+      },
+      '13': {
+        name: '(anonymous_13)',
+        decl: {
+          start: {
+            line: 52,
+            column: 10
+          },
+          end: {
+            line: 52,
+            column: 11
+          }
+        },
+        loc: {
+          start: {
+            line: 52,
+            column: 15
+          },
+          end: {
+            line: 52,
+            column: 16
+          }
+        },
+        line: 52
+      },
+      '14': {
+        name: '(anonymous_14)',
+        decl: {
+          start: {
+            line: 55,
+            column: 30
+          },
+          end: {
+            line: 55,
+            column: 31
+          }
+        },
+        loc: {
+          start: {
+            line: 55,
+            column: 38
+          },
+          end: {
+            line: 59,
+            column: 17
+          }
+        },
+        line: 55
+      },
+      '15': {
+        name: '(anonymous_15)',
+        decl: {
+          start: {
+            line: 58,
+            column: 7
+          },
+          end: {
+            line: 58,
+            column: 8
+          }
+        },
+        loc: {
+          start: {
+            line: 58,
+            column: 12
+          },
+          end: {
+            line: 58,
+            column: 20
+          }
+        },
+        line: 58
+      },
+      '16': {
+        name: '(anonymous_16)',
+        decl: {
+          start: {
+            line: 59,
+            column: 10
+          },
+          end: {
+            line: 59,
+            column: 11
+          }
+        },
+        loc: {
+          start: {
+            line: 59,
+            column: 15
+          },
+          end: {
+            line: 59,
+            column: 16
+          }
+        },
+        line: 59
+      },
+      '17': {
+        name: '(anonymous_17)',
+        decl: {
+          start: {
+            line: 62,
+            column: 26
+          },
+          end: {
+            line: 62,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 62,
+            column: 34
+          },
+          end: {
+            line: 62,
+            column: 100
+          }
+        },
+        line: 62
+      },
+      '18': {
+        name: '(anonymous_18)',
+        decl: {
+          start: {
+            line: 66,
+            column: 27
+          },
+          end: {
+            line: 66,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 66,
+            column: 53
+          },
+          end: {
+            line: 75,
             column: 1
           }
         },
-        line: 87
+        line: 66
+      },
+      '19': {
+        name: '(anonymous_19)',
+        decl: {
+          start: {
+            line: 67,
+            column: 23
+          },
+          end: {
+            line: 67,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 67,
+            column: 36
+          },
+          end: {
+            line: 74,
+            column: 3
+          }
+        },
+        line: 67
+      },
+      '20': {
+        name: '(anonymous_20)',
+        decl: {
+          start: {
+            line: 69,
+            column: 20
+          },
+          end: {
+            line: 69,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 69,
+            column: 33
+          },
+          end: {
+            line: 72,
+            column: 7
+          }
+        },
+        line: 69
+      },
+      '21': {
+        name: '(anonymous_21)',
+        decl: {
+          start: {
+            line: 78,
+            column: 29
+          },
+          end: {
+            line: 78,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 78,
+            column: 52
+          },
+          end: {
+            line: 86,
+            column: 1
+          }
+        },
+        line: 78
+      },
+      '22': {
+        name: '(anonymous_22)',
+        decl: {
+          start: {
+            line: 81,
+            column: 23
+          },
+          end: {
+            line: 81,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 81,
+            column: 41
+          },
+          end: {
+            line: 85,
+            column: 3
+          }
+        },
+        line: 81
+      },
+      '23': {
+        name: '(anonymous_23)',
+        decl: {
+          start: {
+            line: 89,
+            column: 24
+          },
+          end: {
+            line: 89,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 89,
+            column: 37
+          },
+          end: {
+            line: 96,
+            column: 1
+          }
+        },
+        line: 89
       }
     },
     branchMap: {
       '0': {
         loc: {
           start: {
-            line: 69,
+            line: 71,
             column: 15
           },
           end: {
-            line: 69,
+            line: 71,
             column: 59
           }
         },
         type: 'cond-expr',
         locations: [{
           start: {
-            line: 69,
+            line: 71,
             column: 50
           },
           end: {
-            line: 69,
+            line: 71,
             column: 51
           }
         }, {
           start: {
-            line: 69,
+            line: 71,
             column: 54
           },
           end: {
-            line: 69,
+            line: 71,
             column: 59
           }
         }],
-        line: 69
+        line: 71
       },
       '1': {
         loc: {
           start: {
-            line: 69,
+            line: 71,
             column: 15
           },
           end: {
-            line: 69,
+            line: 71,
             column: 47
           }
         },
         type: 'binary-expr',
         locations: [{
           start: {
-            line: 69,
+            line: 71,
             column: 15
           },
           end: {
-            line: 69,
+            line: 71,
             column: 26
           }
         }, {
           start: {
-            line: 69,
+            line: 71,
             column: 30
           },
           end: {
-            line: 69,
+            line: 71,
             column: 47
           }
         }],
-        line: 69
+        line: 71
       }
     },
     s: {
@@ -1106,7 +1231,15 @@ var cov_23endip6jp = function () {
       '41': 0,
       '42': 0,
       '43': 0,
-      '44': 0
+      '44': 0,
+      '45': 0,
+      '46': 0,
+      '47': 0,
+      '48': 0,
+      '49': 0,
+      '50': 0,
+      '51': 0,
+      '52': 0
     },
     f: {
       '0': 0,
@@ -1130,13 +1263,15 @@ var cov_23endip6jp = function () {
       '18': 0,
       '19': 0,
       '20': 0,
-      '21': 0
+      '21': 0,
+      '22': 0,
+      '23': 0
     },
     b: {
       '0': [0, 0],
       '1': [0, 0]
     },
-    _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c'
+    _coverageSchema: '43e27e138ebf9cfc5966b082cf9a028302ed4184'
   },
       coverage = global[gcv] || (global[gcv] = {});
 
@@ -1148,171 +1283,194 @@ var cov_23endip6jp = function () {
   return coverage[path] = coverageData;
 }();
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
+cov_20ucbeyymb.s[0]++;
 // flatten an array of values
-var flatten = exports.flatten = (++cov_23endip6jp.s[0], function (array) {
-  ++cov_23endip6jp.f[0];
-  ++cov_23endip6jp.s[1];
+var flatten = exports.flatten = function flatten(array) {
+  cov_20ucbeyymb.f[0]++;
+  cov_20ucbeyymb.s[1]++;
   return array.reduce(function (a, b) {
-    ++cov_23endip6jp.f[1];
-    ++cov_23endip6jp.s[2];
+    cov_20ucbeyymb.f[1]++;
+    cov_20ucbeyymb.s[2]++;
     return [].concat(_toConsumableArray(a), _toConsumableArray(b));
   }, []);
-});
+};
 
 // normalize an array of Numbers
-var normalize = exports.normalize = (++cov_23endip6jp.s[3], function (array) {
-  ++cov_23endip6jp.f[2];
+cov_20ucbeyymb.s[3]++;
+var normalize = exports.normalize = function normalize(array) {
+  cov_20ucbeyymb.f[2]++;
 
-  var ratio = (++cov_23endip6jp.s[4], Math.max.apply(Math, _toConsumableArray(array)) / 100);
-  ++cov_23endip6jp.s[5];
-  return array.map(function (line) {
-    ++cov_23endip6jp.f[3];
-    ++cov_23endip6jp.s[6];
-    return line / ratio / 100;
-  });
   /**
    * alternative implementation
-   * Produces more accurate scores but normalizes further from 1 so that the top scores in
-   * a text might never be high enough to stand out in results.
-   * NOTE: consider implementing the following code and generating a standard distribution
-   * from the resulting array to achieve more emphasis on the relevant bits
+   * Produces less accurate scores but normalizes with fewer calculations
+   * const ratio = Math.max(...array) / 100
+   * return array.map(line => line / ratio / 100)
    */
-  // const distance = Math.sqrt(array.reduce((dist, line) => (dist + line * line), 0))
-  // return array.map(line => (line / distance))
-});
+  var distance = (cov_20ucbeyymb.s[4]++, Math.sqrt(array.reduce(function (dist, line) {
+    cov_20ucbeyymb.f[3]++;
+    cov_20ucbeyymb.s[5]++;
+    return dist + line * line;
+  }, 0)));
+  var result = (cov_20ucbeyymb.s[6]++, array.map(function (line) {
+    cov_20ucbeyymb.f[4]++;
+    cov_20ucbeyymb.s[7]++;
+    return line / distance;
+  }));
+  var min = (cov_20ucbeyymb.s[8]++, Math.min.apply(Math, _toConsumableArray(result)));
+  var max = (cov_20ucbeyymb.s[9]++, Math.max.apply(Math, _toConsumableArray(result)));
+  var a = (cov_20ucbeyymb.s[10]++, 0);
+  var b = (cov_20ucbeyymb.s[11]++, 1);
+  var r = (cov_20ucbeyymb.s[12]++, result.map(function (l) {
+    cov_20ucbeyymb.f[5]++;
+    cov_20ucbeyymb.s[13]++;
+    return a + (l - min) * (b - a) / (max - min);
+  }));
+  cov_20ucbeyymb.s[14]++;
+  return r;
+};
 
 // return a tanimoto distance for two arrays of String/Number tokens
-var tanimoto = exports.tanimoto = (++cov_23endip6jp.s[7], function (a, b) {
-  ++cov_23endip6jp.f[4];
+cov_20ucbeyymb.s[15]++;
+var tanimoto = exports.tanimoto = function tanimoto(a, b) {
+  cov_20ucbeyymb.f[6]++;
 
-  var A = (++cov_23endip6jp.s[8], new Set(a));
-  var B = (++cov_23endip6jp.s[9], new Set(b));
-  var intersection = (++cov_23endip6jp.s[10], new Set([].concat(_toConsumableArray(A)).filter(function (x) {
-    ++cov_23endip6jp.f[5];
-    ++cov_23endip6jp.s[11];
+  var A = (cov_20ucbeyymb.s[16]++, new Set(a));
+  var B = (cov_20ucbeyymb.s[17]++, new Set(b));
+  var intersection = (cov_20ucbeyymb.s[18]++, new Set([].concat(_toConsumableArray(A)).filter(function (x) {
+    cov_20ucbeyymb.f[7]++;
+    cov_20ucbeyymb.s[19]++;
     return B.has(x);
   })));
-  var both = (++cov_23endip6jp.s[12], Array.from(intersection).length);
-  ++cov_23endip6jp.s[13];
+  var both = (cov_20ucbeyymb.s[20]++, Array.from(intersection).length);
+  cov_20ucbeyymb.s[21]++;
   return both / (a.length + b.length - both);
-});
+};
 
 // scale and normalize matrix scores
 // http://mathworld.wolfram.com/Eigenvalue.html
-var eigenvalues = exports.eigenvalues = (++cov_23endip6jp.s[14], function (matrix, sentences) {
-  ++cov_23endip6jp.f[6];
+cov_20ucbeyymb.s[22]++;
+var eigenvalues = exports.eigenvalues = function eigenvalues(matrix, sentences) {
+  cov_20ucbeyymb.f[8]++;
 
-  var eigen = (++cov_23endip6jp.s[15], Array(sentences.length).fill(1));
+  var eigen = (cov_20ucbeyymb.s[23]++, Array(sentences.length).fill(1));
 
-  ++cov_23endip6jp.s[16];
+  cov_20ucbeyymb.s[24]++;
   Array(10).fill().forEach(function () {
-    ++cov_23endip6jp.f[7];
+    cov_20ucbeyymb.f[9]++;
 
-    var w = (++cov_23endip6jp.s[17], Array(sentences.length).fill(0));
-    ++cov_23endip6jp.s[18];
+    var w = (cov_20ucbeyymb.s[25]++, Array(sentences.length).fill(0));
+    cov_20ucbeyymb.s[26]++;
     sentences.forEach(function (_, i) {
-      ++cov_23endip6jp.f[8];
-      ++cov_23endip6jp.s[19];
+      cov_20ucbeyymb.f[10]++;
+      cov_20ucbeyymb.s[27]++;
 
       sentences.forEach(function (_, j) {
-        ++cov_23endip6jp.f[9];
-        ++cov_23endip6jp.s[20];
+        cov_20ucbeyymb.f[11]++;
+        cov_20ucbeyymb.s[28]++;
 
         w[i] = w[i] + matrix[i][j] * eigen[j];
       });
     });
-    ++cov_23endip6jp.s[21];
+    cov_20ucbeyymb.s[29]++;
     eigen = normalize(w);
   });
 
-  ++cov_23endip6jp.s[22];
+  cov_20ucbeyymb.s[30]++;
   return eigen;
-});
+};
 
 // split text into an array of paragraphs
-var paragraphsArray = exports.paragraphsArray = (++cov_23endip6jp.s[23], function (text) {
-  ++cov_23endip6jp.f[10];
-  ++cov_23endip6jp.s[24];
-  return text.split('\n')
-  // filters out null and undefined
-  .filter(function (p) {
-    ++cov_23endip6jp.f[11];
-    ++cov_23endip6jp.s[25];
+cov_20ucbeyymb.s[31]++;
+var paragraphsArray = exports.paragraphsArray = function paragraphsArray(text) {
+  cov_20ucbeyymb.f[12]++;
+  cov_20ucbeyymb.s[32]++;
+  return text.split('\n').filter(function (p) {
+    cov_20ucbeyymb.f[13]++;
+    cov_20ucbeyymb.s[33]++;
     return p;
   });
-});
+};
 
 // split text into an array of sentences
-var sentencesArray = exports.sentencesArray = (++cov_23endip6jp.s[26], function (text) {
-  ++cov_23endip6jp.f[12];
-  ++cov_23endip6jp.s[27];
+cov_20ucbeyymb.s[34]++;
+var sentencesArray = exports.sentencesArray = function sentencesArray(text) {
+  cov_20ucbeyymb.f[14]++;
+  cov_20ucbeyymb.s[35]++;
   return text.replace(/([\s,]+([\d,-]|[a-z])+[.?!…]+[\n\s"])/g, '$1|').split('|').map(function (s) {
-    ++cov_23endip6jp.f[13];
-    ++cov_23endip6jp.s[28];
+    cov_20ucbeyymb.f[15]++;
+    cov_20ucbeyymb.s[36]++;
     return s.trim();
   }).filter(function (s) {
-    ++cov_23endip6jp.f[14];
-    ++cov_23endip6jp.s[29];
+    cov_20ucbeyymb.f[16]++;
+    cov_20ucbeyymb.s[37]++;
     return s;
   });
-});
+};
 
 // split text into an array of words
-var wordsArray = exports.wordsArray = (++cov_23endip6jp.s[30], function (text) {
-  ++cov_23endip6jp.f[15];
-  ++cov_23endip6jp.s[31];
+cov_20ucbeyymb.s[38]++;
+var wordsArray = exports.wordsArray = function wordsArray(text) {
+  cov_20ucbeyymb.f[17]++;
+  cov_20ucbeyymb.s[39]++;
   return text.toLowerCase().match(/["«»“”()/–—]|--+|\n+|[^\s"“«»”()/–—]+/g);
-});
+};
 
 // wordsMatrix - construct a two-dimentional matrix of tanimoto distance scores
 // (convert words in sentences into numeric scores that represent the frequency of their occurence in the entire text)
-var wordsMatrix = exports.wordsMatrix = (++cov_23endip6jp.s[32], function (sentences, threshold) {
-  ++cov_23endip6jp.f[16];
-  ++cov_23endip6jp.s[33];
+cov_20ucbeyymb.s[40]++;
+var wordsMatrix = exports.wordsMatrix = function wordsMatrix(sentences, threshold) {
+  cov_20ucbeyymb.f[18]++;
+  cov_20ucbeyymb.s[41]++;
 
   return sentences.map(function (sentenceA) {
-    ++cov_23endip6jp.f[17];
-    ++cov_23endip6jp.s[34];
+    cov_20ucbeyymb.f[19]++;
+    cov_20ucbeyymb.s[42]++;
 
     return normalize(sentences.map(function (sentenceB) {
-      ++cov_23endip6jp.f[18];
+      cov_20ucbeyymb.f[20]++;
 
-      var value = (++cov_23endip6jp.s[35], tanimoto(sentenceB, sentenceA));
-      ++cov_23endip6jp.s[36];
-      return (++cov_23endip6jp.b[1][0], !!threshold) && (++cov_23endip6jp.b[1][1], value < threshold) ? (++cov_23endip6jp.b[0][0], 0) : (++cov_23endip6jp.b[0][1], value);
+      var value = (cov_20ucbeyymb.s[43]++, tanimoto(sentenceB, sentenceA));
+      cov_20ucbeyymb.s[44]++;
+      return (cov_20ucbeyymb.b[1][0]++, !!threshold) && (cov_20ucbeyymb.b[1][1]++, value < threshold) ? (cov_20ucbeyymb.b[0][0]++, 0) : (cov_20ucbeyymb.b[0][1]++, value);
     }));
   });
-});
+};
 
 // return objects with scores and meta data for each sentence
-var rankSentences = exports.rankSentences = (++cov_23endip6jp.s[37], function (matrix, sentences) {
-  ++cov_23endip6jp.f[19];
+cov_20ucbeyymb.s[45]++;
+var rankSentences = exports.rankSentences = function rankSentences(matrix, sentences) {
+  cov_20ucbeyymb.f[21]++;
 
   // scale and normalize matrix scores
-  var eigen = (++cov_23endip6jp.s[38], eigenvalues(matrix, sentences));
-  ++cov_23endip6jp.s[39];
+  var eigen = (cov_20ucbeyymb.s[46]++, eigenvalues(matrix, sentences));
+  cov_20ucbeyymb.s[47]++;
   return sentences.map(function (sentence, i) {
-    ++cov_23endip6jp.f[20];
-    ++cov_23endip6jp.s[40];
+    cov_20ucbeyymb.f[22]++;
+    cov_20ucbeyymb.s[48]++;
     return {
       weight: eigen[i],
       text: sentences[i],
       index: i
     };
   });
-});
+};
 
 // Rank the relevance of each sentences to the entire text
-var pageRank = exports.pageRank = (++cov_23endip6jp.s[41], function (sentences) {
-  ++cov_23endip6jp.f[21];
+cov_20ucbeyymb.s[49]++;
+var pageRank = exports.pageRank = function pageRank(sentences) {
+  cov_20ucbeyymb.f[23]++;
 
   // Create an array of sentences, each with an array of words
-  var words = (++cov_23endip6jp.s[42], sentences.map(wordsArray));
+  var words = (cov_20ucbeyymb.s[50]++, sentences.map(wordsArray));
   // Construct a matrix of relevance scores with the arrays of words.
-  var matrix = (++cov_23endip6jp.s[43], wordsMatrix(words));
+  var matrix = (cov_20ucbeyymb.s[51]++, wordsMatrix(words));
   // Generate scores for each sentence in text
-  ++cov_23endip6jp.s[44];
+  cov_20ucbeyymb.s[52]++;
   return rankSentences(matrix, sentences);
-});
+};

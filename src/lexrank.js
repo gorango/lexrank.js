@@ -54,6 +54,8 @@ export function lexrank (text, callback) {
     })
   })
 
-  callback && callback(false, result)
+  if (callback) {
+    callback(null, result)
+  }
   return result
 }

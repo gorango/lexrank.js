@@ -1,16 +1,13 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var cov_18qduvjqmv = function () {
-  var path = 'C:\\Users\\GORAN\\Dev\\lexrank.js\\src\\lexrank.js',
-      hash = 'a99466be4f41a544d0abeaa3b8021dacafa5c2d4',
+var cov_16s8n5kw9g = function () {
+  var path = '/home/goran/sandbox/projects/gorango/lexrank.js/src/lexrank.js',
+      hash = '61fe2d421b171cfffe1f6d7c4472dc7365dd6381',
+      Function = function () {}.constructor,
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
-    path: 'C:\\Users\\GORAN\\Dev\\lexrank.js\\src\\lexrank.js',
+    path: '/home/goran/sandbox/projects/gorango/lexrank.js/src/lexrank.js',
     statementMap: {
       '0': {
         start: {
@@ -24,121 +21,131 @@ var cov_18qduvjqmv = function () {
       },
       '1': {
         start: {
-          line: 34,
+          line: 33,
           column: 21
         },
         end: {
-          line: 34,
+          line: 33,
           column: 74
         }
       },
       '2': {
         start: {
-          line: 37,
+          line: 35,
           column: 23
         },
         end: {
-          line: 37,
+          line: 35,
           column: 64
         }
       },
       '3': {
         start: {
-          line: 38,
-          column: 17
+          line: 37,
+          column: 20
         },
         end: {
-          line: 61,
-          column: 4
+          line: 37,
+          column: 21
         }
       },
       '4': {
         start: {
-          line: 40,
-          column: 19
+          line: 39,
+          column: 17
         },
         end: {
-          line: 40,
-          column: 44
+          line: 55,
+          column: 4
         }
       },
       '5': {
         start: {
           line: 41,
-          column: 4
+          column: 19
         },
         end: {
-          line: 60,
-          column: 6
+          line: 41,
+          column: 44
         }
       },
       '6': {
         start: {
-          line: 43,
-          column: 20
+          line: 42,
+          column: 4
         },
         end: {
-          line: 49,
-          column: 23
+          line: 54,
+          column: 6
         }
       },
       '7': {
         start: {
-          line: 47,
-          column: 15
+          line: 44,
+          column: 20
         },
         end: {
-          line: 47,
-          column: 37
+          line: 44,
+          column: 33
         }
       },
       '8': {
         start: {
-          line: 52,
-          column: 21
+          line: 46,
+          column: 26
         },
         end: {
-          line: 52,
-          column: 47
+          line: 46,
+          column: 52
         }
       },
       '9': {
         start: {
-          line: 54,
+          line: 48,
           column: 21
         },
         end: {
-          line: 58,
+          line: 52,
           column: 7
         }
       },
       '10': {
         start: {
-          line: 59,
+          line: 53,
           column: 6
         },
         end: {
-          line: 59,
-          column: 55
+          line: 53,
+          column: 43
         }
       },
       '11': {
         start: {
-          line: 63,
+          line: 57,
           column: 2
         },
         end: {
-          line: 63,
-          column: 37
+          line: 59,
+          column: 3
         }
       },
       '12': {
         start: {
-          line: 64,
+          line: 58,
+          column: 4
+        },
+        end: {
+          line: 58,
+          column: 26
+        }
+      },
+      '13': {
+        start: {
+          line: 60,
           column: 2
         },
         end: {
-          line: 64,
+          line: 60,
           column: 15
         }
       }
@@ -148,165 +155,108 @@ var cov_18qduvjqmv = function () {
         name: 'lexrank',
         decl: {
           start: {
-            line: 32,
+            line: 31,
             column: 16
           },
           end: {
-            line: 32,
+            line: 31,
             column: 23
           }
         },
         loc: {
           start: {
-            line: 32,
+            line: 31,
             column: 41
           },
           end: {
-            line: 65,
+            line: 61,
             column: 1
           }
         },
-        line: 32
+        line: 31
       },
       '1': {
         name: '(anonymous_1)',
         decl: {
           start: {
-            line: 38,
+            line: 39,
             column: 32
           },
           end: {
-            line: 38,
+            line: 39,
             column: 33
           }
         },
         loc: {
           start: {
-            line: 38,
+            line: 39,
             column: 63
           },
           end: {
-            line: 61,
+            line: 55,
             column: 3
           }
         },
-        line: 38
+        line: 39
       },
       '2': {
         name: '(anonymous_2)',
         decl: {
           start: {
-            line: 41,
+            line: 42,
             column: 22
           },
           end: {
-            line: 41,
+            line: 42,
             column: 23
           }
         },
         loc: {
           start: {
-            line: 41,
+            line: 42,
             column: 51
           },
           end: {
-            line: 60,
+            line: 54,
             column: 5
           }
         },
-        line: 41
-      },
-      '3': {
-        name: '(anonymous_3)',
-        decl: {
-          start: {
-            line: 46,
-            column: 20
-          },
-          end: {
-            line: 46,
-            column: 21
-          }
-        },
-        loc: {
-          start: {
-            line: 47,
-            column: 15
-          },
-          end: {
-            line: 47,
-            column: 37
-          }
-        },
-        line: 47
+        line: 42
       }
     },
     branchMap: {
       '0': {
         loc: {
           start: {
-            line: 43,
-            column: 20
-          },
-          end: {
-            line: 49,
-            column: 23
-          }
-        },
-        type: 'cond-expr',
-        locations: [{
-          start: {
-            line: 44,
-            column: 10
-          },
-          end: {
-            line: 48,
-            column: 33
-          }
-        }, {
-          start: {
-            line: 49,
-            column: 10
-          },
-          end: {
-            line: 49,
-            column: 23
-          }
-        }],
-        line: 43
-      },
-      '1': {
-        loc: {
-          start: {
-            line: 63,
+            line: 57,
             column: 2
           },
           end: {
-            line: 63,
-            column: 37
+            line: 59,
+            column: 3
           }
         },
-        type: 'binary-expr',
+        type: 'if',
         locations: [{
           start: {
-            line: 63,
+            line: 57,
             column: 2
           },
           end: {
-            line: 63,
-            column: 10
+            line: 59,
+            column: 3
           }
         }, {
           start: {
-            line: 63,
-            column: 14
+            line: 57,
+            column: 2
           },
           end: {
-            line: 63,
-            column: 37
+            line: 59,
+            column: 3
           }
         }],
-        line: 63
+        line: 57
       }
     },
     s: {
@@ -322,19 +272,18 @@ var cov_18qduvjqmv = function () {
       '9': 0,
       '10': 0,
       '11': 0,
-      '12': 0
+      '12': 0,
+      '13': 0
     },
     f: {
       '0': 0,
       '1': 0,
-      '2': 0,
-      '3': 0
+      '2': 0
     },
     b: {
-      '0': [0, 0],
-      '1': [0, 0]
+      '0': [0, 0]
     },
-    _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c'
+    _coverageSchema: '43e27e138ebf9cfc5966b082cf9a028302ed4184'
   },
       coverage = global[gcv] || (global[gcv] = {});
 
@@ -346,14 +295,21 @@ var cov_18qduvjqmv = function () {
   return coverage[path] = coverageData;
 }();
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 exports.lexrank = lexrank;
-var utils = (++cov_18qduvjqmv.s[0], require('./utils'));
+var utils = (cov_16s8n5kw9g.s[0]++, require('./utils'));
 
 /**
  * Performs text analysis using the Lexrank algorithm.
  * 1. Runs the algorithm on the entire text to get the global scores for each sentence
  * 2. Then runs it again on each paragraph to get the local scores for each sentence
  *   - NOTE: this second computation is fairly expensive on long bodies of text
+ *     but important if you want granularity in results
  *
  * @param  {String} text       plain text - each \n indicating new paragraph
  * @param  {Function} callback
@@ -365,13 +321,11 @@ var utils = (++cov_18qduvjqmv.s[0], require('./utils'));
  *   [
  *     {
  *       weight: {
- *         // relevance score relative to the entire text
- *         global: <Number(0-1)>,
- *         // relevance score relative to the parent paragraph
- *         paragraph: <Number(0-1)>
+ *         global: <Number(0-1)>,       // relevance score relative to the entire text
+ *         paragraph: <Number(0-1)>     // relevance score relative to the parent paragraph
  *       },
  *       text: <String>,
- *       index: <Number>
+ *       index: <Number>                // global sentence index
  *     },
  *     { ... }
  *   ],
@@ -379,44 +333,48 @@ var utils = (++cov_18qduvjqmv.s[0], require('./utils'));
  * ]
  */
 function lexrank(text, callback) {
-  ++cov_18qduvjqmv.f[0];
+  cov_16s8n5kw9g.f[0]++;
 
   // Split text into an array of paragraphs, each with an array of sentences
-  var paragraphs = (++cov_18qduvjqmv.s[1], utils.paragraphsArray(text).map(utils.sentencesArray));
-
+  var paragraphs = (cov_16s8n5kw9g.s[1]++, utils.paragraphsArray(text).map(utils.sentencesArray));
   // Calculate global relevance scores for each sentence
-  var globalRanked = (++cov_18qduvjqmv.s[2], utils.pageRank(utils.flatten(paragraphs)));
-  var result = (++cov_18qduvjqmv.s[3], paragraphs.map(function (sentences, paragraphIndex) {
-    ++cov_18qduvjqmv.f[1];
+  var globalRanked = (cov_16s8n5kw9g.s[2]++, utils.pageRank(utils.flatten(paragraphs)));
+  // Keep a reference to global index to match nested sentences to global scores
+  var globalIndex = (cov_16s8n5kw9g.s[3]++, 0);
+  // Run detailed analysis on each block of text (paragraph)
+  var result = (cov_16s8n5kw9g.s[4]++, paragraphs.map(function (sentences, paragraphIndex) {
+    cov_16s8n5kw9g.f[1]++;
 
     // Calculate paragraph-level relevance scores for each sentence
-    var ranked = (++cov_18qduvjqmv.s[4], utils.pageRank(sentences));
-    ++cov_18qduvjqmv.s[5];
+    var ranked = (cov_16s8n5kw9g.s[5]++, utils.pageRank(sentences));
+    cov_16s8n5kw9g.s[6]++;
     return ranked.map(function (sentence, sentenceIndex) {
-      ++cov_18qduvjqmv.f[2];
+      cov_16s8n5kw9g.f[2]++;
 
-      // Find global indices for each sentence object.
-      var index = (++cov_18qduvjqmv.s[6], paragraphIndex > 0 ? (++cov_18qduvjqmv.b[0][0], paragraphs.slice(0, paragraphIndex).reduce(function (sum, paragraph) {
-        ++cov_18qduvjqmv.f[3];
-        ++cov_18qduvjqmv.s[7];
-        return sum + paragraph.length;
-      }, 0) + sentenceIndex) : (++cov_18qduvjqmv.b[0][1], sentenceIndex));
-
-      // global sentence score
-      var global = (++cov_18qduvjqmv.s[8], globalRanked[index].weight);
+      // update and copy globalIndex value
+      var index = (cov_16s8n5kw9g.s[7]++, globalIndex++);
+      // get global sentence score
+      var globalScore = (cov_16s8n5kw9g.s[8]++, globalRanked[index].weight);
       // Update the sentence weight to an object containing global, paragraph, and avg scores
-      var weight = (++cov_18qduvjqmv.s[9], {
-        global: global,
+      var weight = (cov_16s8n5kw9g.s[9]++, {
+        global: globalScore,
         paragraph: sentence.weight,
-        average: (global + sentence.weight) / 2
+        average: (globalScore + sentence.weight) / 2
       });
-      ++cov_18qduvjqmv.s[10];
-      return Object.assign(sentence, { index: index, weight: weight });
+      cov_16s8n5kw9g.s[10]++;
+      return _extends({}, sentence, { index: index, weight: weight });
     });
   }));
 
-  ++cov_18qduvjqmv.s[11];
-  (++cov_18qduvjqmv.b[1][0], callback) && (++cov_18qduvjqmv.b[1][1], callback(false, result));
-  ++cov_18qduvjqmv.s[12];
+  cov_16s8n5kw9g.s[11]++;
+  if (callback) {
+    cov_16s8n5kw9g.b[0][0]++;
+    cov_16s8n5kw9g.s[12]++;
+
+    callback(null, result);
+  } else {
+    cov_16s8n5kw9g.b[0][1]++;
+  }
+  cov_16s8n5kw9g.s[13]++;
   return result;
 }
