@@ -1,12 +1,12 @@
 /* eslint-env mocha */
-import { expect } from 'chai'
-import fs from 'fs'
-import { lexrank } from './lexrank'
+const { expect } = require('chai')
+const fs = require('fs')
+const lexrank = require('./lexrank')
 
 const text = fs.readFileSync('./fixtures/test.txt', 'utf8')
 
 describe('lexrank.js', () => {
-  describe('lexrank(text)', () => {
+  describe('lexrank(text)', async () => {
     const expected = `Automatic summarization is the process of reducing a text document with a computer program in order to create a summary that retains the most important points of the original document.`
     const result = lexrank(text)
     it('should return arrays of ranked sentences', () => {

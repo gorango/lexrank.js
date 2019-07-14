@@ -28,7 +28,8 @@ const utils = require('./utils')
  *   [ ... ]
  * ]
  */
-export function lexrank (text, callback) {
+
+module.exports = function lexrank (text, callback) {
   // Split text into an array of paragraphs, each with an array of sentences
   const paragraphs = utils.paragraphsArray(text).map(utils.sentencesArray)
   // Calculate global relevance scores for each sentence
@@ -57,5 +58,6 @@ export function lexrank (text, callback) {
   if (callback) {
     callback(null, result)
   }
+
   return result
 }

@@ -1,19 +1,15 @@
 {
-  "check-coverage": true,
-  "reporter": [
-    "lcov",
-    "text"
-  ],
+  "check-coverage": false,
+  "source-map": false,
+  "per-file": false,
+  "lines": 65,
+  "statements": 65,
+  "functions": 43,
+  "branches": 9,
   "include": [
     "src/*.js"
   ],
-  "exclude": [
-    "dist"
-  ],
-  "require": [
-    "babel-register",
-    "babel-polyfill"
-  ],
-  "sourceMap": false,
-  "instrument": false
+  "reporter": [
+    "html"
+  ]
 }

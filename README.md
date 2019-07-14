@@ -1,6 +1,6 @@
 # lexrank.js
 
-Implements [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization in node. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to entire text.
+Implements [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization in NodeJS. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to entire text.
 
 # Usage
 
@@ -13,8 +13,10 @@ npm i --save lexrank.js
 In your script:
 
 ```js
-import lexrank from 'lexrank.js'
-lexrank(text, (err, result) => {})
+const lexrank = require('lexrank.js')
+const result = lexrank(text)
+// or as a callback
+lexrank(text, (err, result) => {/* handle result */})
 ```
 
 ### Params

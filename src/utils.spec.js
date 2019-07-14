@@ -1,8 +1,8 @@
 /* eslint-env mocha */
-import { expect } from 'chai'
-import fs from 'fs'
+const { expect } = require('chai')
+const fs = require('fs')
 
-import {
+const {
   flatten,
   normalize,
   tanimoto,
@@ -12,7 +12,7 @@ import {
   wordsArray,
   wordsMatrix,
   pageRank
-} from './utils'
+} = require('./utils')
 
 const text = fs.readFileSync('./fixtures/test.txt', 'utf8')
 
