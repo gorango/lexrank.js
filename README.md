@@ -1,19 +1,19 @@
-# lexrank.js
+# lexi
 
-Implements [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization in NodeJS. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to entire text.
+NodeJS implementation of [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to the entire text.
 
 # Usage
 
 Install from npm
 
 ```
-npm i --save lexrank.js
+npm i --save @n6/lexi
 ```
 
 In your script:
 
 ```js
-const lexrank = require('lexrank.js')
+const lexrank = require('@pythagoran/lexi')
 const result = lexrank(text)
 // or as a callback
 lexrank(text, (err, result) => {/* handle result */})

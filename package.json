@@ -1,10 +1,13 @@
 {
-  "name": "lexrank.js",
+  "name": "@n6/lexi",
   "version": "1.4.0",
-  "description": "Text summarization using the lexrank algorithm",
+  "description": "Lexrank implementation - text relevance algorithm",
   "main": "src/lexrank.js",
-  "repository": "https://github.com/gorango/lexrank.js",
-  "author": "https://github.com/gorango",
+  "repository": "https://github.com/n5e/lexi",
+  "author": {
+    "name": "Goran Spasojevic",
+    "email": "gospaso@gmail.com"
+  },
   "license": "MIT",
   "scripts": {
     "lint": "standard src/*.js --verbose | snazzy",
