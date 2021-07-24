@@ -1,4 +1,4 @@
-import utils from "./utils.js";
+import utils from './utils.js'
 
 /**
  * Performs text analysis using the Lexrank algorithm.
@@ -31,33 +31,33 @@ import utils from "./utils.js";
 
 export default function lexrank(text, callback) {
   // Split text into an array of paragraphs, each with an array of sentences
-  const paragraphs = utils.paragraphsArray(text).map(utils.sentencesArray);
+  const paragraphs = utils.paragraphsArray(text).map(utils.sentencesArray)
   // Calculate global relevance scores for each sentence
-  const globalRanked = utils.pageRank(utils.flatten(paragraphs));
+  const globalRanked = utils.pageRank(utils.flatten(paragraphs))
   // Keep a reference to global index to match nested sentences to global scores
-  let globalIndex = 0;
+  let globalIndex = 0
   // Run detailed analysis on each block of text (paragraph)
   const result = paragraphs.map((sentences, paragraphIndex) => {
     // Calculate paragraph-level relevance scores for each sentence
-    const ranked = utils.pageRank(sentences);
+    const ranked = utils.pageRank(sentences)
     return ranked.map((sentence, sentenceIndex) => {
       // update and copy globalIndex value
-      const index = globalIndex++;
+      const index = globalIndex++
       // get global sentence score
-      const globalScore = globalRanked[index].weight;
+      const globalScore = globalRanked[index].weight
       // Update the sentence weight to an object containing global, paragraph, and avg scores
       const weight = {
         global: globalScore,
         paragraph: sentence.weight,
-        average: (globalScore + sentence.weight) / 2,
-      };
-      return { ...sentence, index, weight };
-    });
-  });
+        average: (globalScore + sentence.weight) / 2
+      }
+      return {...sentence, index, weight}
+    })
+  })
 
   if (callback) {
-    callback(null, result);
+    callback(null, result)
   }
 
-  return result;
+  return result
 }

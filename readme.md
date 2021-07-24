@@ -13,12 +13,12 @@ npm i --save lexrank.js
 In your script:
 
 ```js
-const lexrank = require("lexrank.js");
-const result = lexrank(text);
+import lexrank from 'lexrank.js'
+const result = lexrank(text)
 // or as a callback
 lexrank(text, (err, result) => {
   /* handle result */
-});
+})
 ```
 
 ### Params

@@ -1,8 +1,7 @@
 import fs from "fs";
-import path from "path";
 import lexrank from "./src/lexrank.js";
 
-const text = fs.readFileSync(path.join("./fixtures/test.txt"), "utf-8");
+const text = fs.readFileSync("./fixtures/test.txt", "utf-8");
 const result = lexrank(text);
 
 console.log(JSON.stringify(result, null, 2));

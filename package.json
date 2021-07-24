@@ -2,24 +2,37 @@
   "name": "lexrank.js",
   "version": "2.0.0",
   "description": "Lexrank implementation - text relevance algorithm",
-  "type": "module",
-  "main": "src/lexrank.js",
   "repository": "https://github.com/gorango/lexrank.js",
+  "license": "MIT",
   "author": {
     "name": "Goran Spasojevic",
     "email": "gospaso@gmail.com"
   },
-  "license": "MIT",
   "scripts": {
     "coverage": "rimraf coverage & npm run test:ci",
-    "test": "mocha ./**/*.spec.js --watch",
-    "test:ci": "nyc --all mocha src/*.js"
+    "test": "tape ./src/*.spec.js",
+    "test:ci": "c8 tape src/*.spec.js"
   },
+  "type": "module",
+  "sideEffects": false,
+  "main": "src/lexrank.js",
+  "types": "index.d.ts",
+  "files": [
+    "src/lexrank.js",
+    "src/utils.js"
+  ],
   "dependencies": {},
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.0.2",
-    "nyc": "^15.1.0",
-    "rimraf": "^3.0.2"
+    "c8": "^7.7.3",
+    "rimraf": "^3.0.2",
+    "tape": "^5.2.2"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
   }
 }
