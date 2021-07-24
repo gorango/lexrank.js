@@ -7,16 +7,18 @@ NodeJS implementation of [Radev's Lexrank algorithm](http://www.jair.org/papers/
 Install from npm
 
 ```
-npm i --save @n6/lexi
+npm i --save lexrank.js
 ```
 
 In your script:
 
 ```js
-const lexrank = require('@pythagoran/lexi')
-const result = lexrank(text)
+const lexrank = require("lexrank.js");
+const result = lexrank(text);
 // or as a callback
-lexrank(text, (err, result) => {/* handle result */})
+lexrank(text, (err, result) => {
+  /* handle result */
+});
 ```
 
 ### Params

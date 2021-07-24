@@ -1,9 +1,9 @@
 {
-  "name": "@n6/lexi",
-  "version": "1.4.0",
+  "name": "lexrank.js",
+  "version": "1.4.1",
   "description": "Lexrank implementation - text relevance algorithm",
   "main": "src/lexrank.js",
-  "repository": "https://github.com/n5e/lexi",
+  "repository": "https://github.com/gorango/lexrank.js",
   "author": {
     "name": "Goran Spasojevic",
     "email": "gospaso@gmail.com"
