@@ -1,4 +1,4 @@
-# lexi
+# Lexrank.js
 
 NodeJS implementation of [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to the entire text.
 
