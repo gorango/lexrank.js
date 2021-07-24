@@ -1,9 +1,10 @@
 {
   "name": "lexrank.js",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "Lexrank implementation - text relevance algorithm",
   "main": "src/lexrank.js",
   "repository": "https://github.com/gorango/lexrank.js",
+  "type": "module",
   "author": {
     "name": "Goran Spasojevic",
     "email": "gospaso@gmail.com"
