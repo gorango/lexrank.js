@@ -1,7 +1,7 @@
 {
   "name": "lexrank.js",
-  "version": "2.0.1",
-  "description": "Lexrank implementation - text relevance algorithm",
+  "version": "2.0.2",
+  "description": "Lexrank - text relevance algorithm",
   "repository": "https://github.com/gorango/lexrank.js",
   "license": "MIT",
   "keywords": [
@@ -24,7 +24,6 @@
   "type": "module",
   "sideEffects": false,
   "main": "src/lexrank.js",
-  "types": "index.d.ts",
   "files": [
     "src/lexrank.js",
     "src/utils.js"
