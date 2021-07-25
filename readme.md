@@ -5,7 +5,7 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-NodeJS implementation of [Radev's Lexrank algorithm](http://www.jair.org/papers/paper1523.html) for unsupervised text summarization. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to the entire text.
+NodeJS implementation of [Radev's Lexrank algorithm][paper] for unsupervised text summarization. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to the entire text.
 
 # Usage
 
@@ -71,5 +71,6 @@ Run `npm coverage` to produce a test coverage report.
 [downloads]: https://www.npmjs.com/package/lexrank.js
 [size-badge]: https://img.shields.io/bundlephobia/minzip/lexrank.js.svg
 [size]: https://bundlephobia.com/result?p=lexrank.js
+[paper]: http://www.jair.org/papers/paper1523.html
 [license]: license
 [author]: https://github.com/gorango
