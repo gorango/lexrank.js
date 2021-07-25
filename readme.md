@@ -36,7 +36,7 @@ lexrank(text, (err, result) => {
 
 Returns an array containing ranked results and a summary string.
 
-```json
+```
 // sentences
 [
   {
