@@ -57,7 +57,7 @@ export const sentencesArray = (text) =>
     .replace(/([\s,]+([\d,-]|[a-z])+[.?!…]+[\n\s"])/g, '$1|')
     .split('|')
     .map((s) => s.trim())
-    .filter((s) => s)
+    .filter(Boolean)
 
 // split text into an array of words
 export const wordsArray = (text) =>
@@ -95,4 +95,17 @@ export const pageRank = (sentences) => {
   const matrix = wordsMatrix(words)
   // Generate scores for each sentence in text
   return rankSentences(matrix, sentences)
+}
+
+export default {
+  flatten,
+  normalize,
+  tanimoto,
+  eigenvalues,
+  paragraphsArray,
+  sentencesArray,
+  wordsArray,
+  wordsMatrix,
+  rankSentences,
+  pageRank
 }

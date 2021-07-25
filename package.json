@@ -17,9 +17,8 @@
     "email": "gospaso@gmail.com"
   },
   "scripts": {
-    "coverage": "rimraf coverage & npm run test:ci",
-    "test": "tape ./src/*.spec.js",
-    "test:ci": "c8 tape src/*.spec.js"
+    "test": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node --conditions development test.js",
+    "test:dev": "npx nodemon --conditions development test.js"
   },
   "type": "module",
   "sideEffects": false,
@@ -28,10 +27,8 @@
     "src/lexrank.js",
     "src/utils.js"
   ],
-  "dependencies": {},
   "devDependencies": {
     "c8": "^7.7.3",
-    "rimraf": "^3.0.2",
     "tape": "^5.2.2"
   },
   "prettier": {
