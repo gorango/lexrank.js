@@ -28,26 +28,26 @@ lexrank(text, (err, result) => {
 })
 ```
 
-### Params
-
-`text` - plain text string.
-
 ### Returns
 
-Returns an array containing ranked results and a summary string.
+Returns a paragraphs array containing sentences of ranked results and a summary string.
 
 ```
-// sentences
+// paragraphs array
 [
-  {
-    weight: {
-      global: <Number(0-1)>,       // score relative to entire text
-      paragraph: <Number(0-1)>     // score relative to paragraph
+  // sentences array
+  [
+    {
+      weight: {
+        global: <Number(0-1)>,       // relevance score relative to the entire text
+        paragraph: <Number(0-1)>     // relevance score relative to the parent paragraph
+      },
+      text: <String>,                // original sentence string
+      index: <Number>                // global sentence index
     },
-    text: <String>,       // original sentence string
-    index: <Number>       // sentence index
-  },
-  ...
+    { ... }
+  ],
+  [ ... ]
 ]
 ```
 

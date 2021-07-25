@@ -20,7 +20,7 @@ import utils from './utils.js'
  *         global: <Number(0-1)>,       // relevance score relative to the entire text
  *         paragraph: <Number(0-1)>     // relevance score relative to the parent paragraph
  *       },
- *       text: <String>,
+ *       text: <String>,                // original sentence string
  *       index: <Number>                // global sentence index
  *     },
  *     { ... }
