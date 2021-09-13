@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: ${{matrix.node}}
       - run: npm install
-      - run: npm test
+      - run: npm coverage
       - uses: codecov/codecov-action@v2.0.2
         with:
           token: 14dd4f18-5867-4419-86da-47d0dc0cf418
