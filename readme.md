@@ -55,7 +55,7 @@ Returns a paragraphs array containing sentences of ranked results and a summary 
 
 Run `npm test` to run tests in all `*.spec.js` files.
 
-Run `npm coverage` to produce a test coverage report.
+Run `npm run coverage` to produce a test coverage report.
 
 ## License
 
