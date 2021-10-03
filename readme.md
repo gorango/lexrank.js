@@ -5,7 +5,7 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-NodeJS implementation of [Radev's Lexrank algorithm][paper] for unsupervised text summarization. Essentially applying PageRank to each sentence in a document and ranking each one for relevance to the entire text.
+Unsupervised text summarization using the [Lexrank algorithm][paper].
 
 # Usage
 
@@ -21,39 +21,28 @@ In your script:
 import lexrank from 'lexrank.js'
 
 const result = lexrank(text)
-
-// or as a callback
-lexrank(text, (err, result) => {
-  /* handle result */
-})
 ```
 
 ### Returns
 
-Returns a paragraphs array containing sentences of ranked results and a summary string.
+Nested arrays of paragraphs containing sentences with ranked results.
 
 ```
 // paragraphs array
 [
   // sentences array
-  [
-    {
-      weight: {
-        global: <Number(0-1)>,       // relevance score relative to the entire text
-        paragraph: <Number(0-1)>     // relevance score relative to the parent paragraph
-      },
-      text: <String>,                // original sentence string
-      index: <Number>                // global sentence index
-    },
-    { ... }
-  ],
+  [{
+    weight: <Number(0-1)>    // relevance score
+    text: <String>           // original sentence string
+    index: <Number>          // global sentence index
+  }],
   [ ... ]
 ]
 ```
 
 # Tests
 
-Run `npm test` to run tests in all `*.spec.js` files.
+Run `npm test` to run tests.
 
 Run `npm run coverage` to produce a test coverage report.
 
@@ -71,6 +60,6 @@ Run `npm run coverage` to produce a test coverage report.
 [downloads]: https://www.npmjs.com/package/lexrank.js
 [size-badge]: https://img.shields.io/bundlephobia/minzip/lexrank.js.svg
 [size]: https://bundlephobia.com/result?p=lexrank.js
-[paper]: http://www.jair.org/papers/paper1523.html
+[paper]: https://arxiv.org/abs/1109.2128
 [license]: license
 [author]: https://github.com/gorango
