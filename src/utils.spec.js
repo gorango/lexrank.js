@@ -28,7 +28,7 @@ test('should flatten an array of arrays', (t) => {
 // normalize(array)
 test('should normalize an array of numbers', (t) => {
   const array = [0.1, 0.2, 0.5]
-  const expected = [0, 0.25, 1]
+  const expected = [0, 0.2, 0.8]
   t.deepEqual(normalize(array), expected)
   t.end()
 })
@@ -90,7 +90,7 @@ test('should construct a two-dimentional matrix of tanimoto distance scores', (t
     `This sentence is in a new paragraph! This sentence: is split right up.`
   const sentencesAndWords = sentencesArray(text).map(wordsArray)
   const matrix = wordsMatrix(sentencesAndWords)
-  const expected = [1, 0, 0, 0.03571428571428572]
+  const expected = [0.7777777777777778, 0, 0, 0.02777777777777778]
   t.equal(matrix.length, 4)
   t.deepEqual(matrix[0], expected)
   t.end()
@@ -113,7 +113,7 @@ test('should return objects with scores for each sentence', (t) => {
   const sentences = sentencesArray(text)
   const ranked = pageRank(sentences)
   const expected = {
-    weight: 0.6568212510946212,
+    weight: 0.45916959327957063,
     text: 'Automatic summarization is the process of reducing a text document with a computer program in order to create a summary that retains the most important points of the original document.',
     index: 0
   }

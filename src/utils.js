@@ -3,20 +3,10 @@ export const flatten = (arr) => arr.reduce((a, b) => [...a, ...b], [])
 
 // normalize an array of Numbers
 export const normalize = (arr) => {
-  /**
-   * alternative implementation
-   * Produces less accurate scores but normalizes with fewer calculations
-   * const ratio = Math.max(...array) / 100
-   * return array.map(line => line / ratio / 100)
-   */
-  const distance = Math.sqrt(arr.reduce((dis, ln) => dis + ln * ln, 0))
-  const result = arr.map((ln) => ln / distance)
-  const [aMin, aMax] = [Math.min(...result), Math.max(...result)]
-  const [bMin, bMax] = [0, 1]
-  // normalize `array` between 0 and 1
-  return result.map(
-    (ln) => bMin + ((ln - aMin) * (bMax - bMin)) / (aMax - aMin)
-  )
+  const distance = Math.sqrt(arr.reduce((d, n) => d + n * n, 0))
+  const result = arr.map(n => (distance ? n / distance : 0))
+  const [min, max] = [Math.min(...result), Math.max(...result) || 1]
+  return result.map(n => (n - min) / max)
 }
 
 // return a tanimoto distance for two arrays of String/Number tokens
@@ -82,7 +72,7 @@ export const rankSentences = (matrix, sentences) => {
   const eigen = eigenvalues(matrix, sentences)
   return sentences.map((sentence, i) => ({
     weight: eigen[i],
-    text: sentences[i],
+    text: sentence,
     index: i
   }))
 }
