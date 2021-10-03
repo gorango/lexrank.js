@@ -16,7 +16,7 @@ import {
 const text = fs.readFileSync('./fixtures/test.txt', 'utf8')
 
 // flatten(array)
-test('should flatten an array of objects', (t) => {
+test('should flatten an array of arrays', (t) => {
   const array = [
     [1, 2, 3],
     [4, 5, 6]
