@@ -7,7 +7,7 @@
 
 Unsupervised text summarization using the [Lexrank algorithm][paper].
 
-# Usage
+## Usage
 
 Install from npm
 
@@ -40,7 +40,7 @@ Nested arrays of paragraphs containing sentences with ranked results.
 ]
 ```
 
-# Tests
+## Tests
 
 Run `npm test` to run tests.
 
