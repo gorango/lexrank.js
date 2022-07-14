@@ -28,15 +28,7 @@
     "src/utils.js"
   ],
   "devDependencies": {
-    "c8": "^7.9.0",
-    "tape": "^5.3.1"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "singleQuote": true,
-    "bracketSpacing": false,
-    "semi": false,
-    "trailingComma": "none"
+    "c8": "^7.11.3",
+    "tape": "^5.5.3"
   }
 }
